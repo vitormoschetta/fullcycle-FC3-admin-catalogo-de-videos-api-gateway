@@ -9,13 +9,18 @@ Ambiente de execucao do Kong API Gateway usando ferramenta docker-compose
 
 
 ## Ferramentas que serao provisionadas usando o docker-compose
+### Log
 * Fluent-Bit
 * Kibana
 * ElasticSearch
-* Jaeger
+
+### Monitoramento
 * Grafana
 * Prometheus
 * Prometheus Node Exporter
+
+### Tracing
+* Jaeger
 
 ### Arquivos de configuracao fluent-bit
 

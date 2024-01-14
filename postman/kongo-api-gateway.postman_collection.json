@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "679699b1-3fa5-4999-8194-ed51a21dab9c",
+		"name": "kongo-api-gateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26002741"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "bets-app.com.br",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic 3d9d752f7ab77a5428acaf59f134cd35f7238907",
+						"type": "text"
+					},
+					{
+						"key": "apiKey",
+						"value": "u4fAl0XAENzqSjFK5DykwPC3FRp8BmrO",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"homeTeamScore\": \"2\",\n    \"awayTeamScore\": \"3\",\n    \"championship\": \"Champions League\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:80/api/bets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"api",
+						"bets"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
